@@ -7,6 +7,8 @@ height: 100%;
 width: 100%;
 }
 
+/* MAINPAGE */
+
 .profile-img {
   height: 250px;
   border-radius: 50%;
@@ -16,20 +18,69 @@ width: 100%;
   width: 75%;
   margin: auto;
   text-align: center;
+
 }
 
 .bio h1 {
+  font-family: 'Dancing Script';
   font-size: 66px;
   font-weight: bold;
-  color: white;
+  color: rgb(238, 153, 167);
 
 }
 
 .bio p {
-  color: white;
+  font-family: 'Montserrat';
+  color: rgb(238, 153, 167);
   font-size: 20px
 }
 
+/* PORTFOLIO PAGE */
+
 .portfolio {
   display: flex;
+}
+
+/* ABOUT ME PAGE */
+
+.aboutme-bio {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.aboutme-bio h1 {
+  font-family: 'Dancing Script';
+  font-size: 66px;
+  font-weight: bold;
+  color:rgb(238, 153, 167);
+}
+
+.aboutme-bio p {
+  font-family: 'Montserrat';
+  color: rgb(238, 153, 167);
+  font-size: 30px
+}
+
+.aboutme-img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+/* CONTACT PAGE */
+
+/* RESUME */
+
+.resume {  
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.resume h1 {
+  font-family: 'Dancing Script';
+  font-size: 66px;
+  font-weight: bold;
+  color:rgb(238, 153, 167);
+
 }
