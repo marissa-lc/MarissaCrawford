@@ -1,0 +1,35 @@
+body {
+background-image: url("https://i2.pickpik.com/photos/218/836/980/black-white-minimal-minimalist-minimalistic-preview.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100%;
+width: 100%;
+}
+
+.profile-img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.bio {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.bio h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.bio p {
+  color: white;
+  font-size: 20px
+}
+
+.portfolio {
+  display: flex;
+}

@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
- <div style={{height: '300px', position: 'relative'}}>
-    <Layout>
-        <Header transparent title="Marissa Crawford" style={{color: 'white'}}>
+ <div className="demo-big-content">
+    <Layout className="header">
+        <Header transparent title="Marissa Crawford">
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/portfolio">Portfolio</Link>
@@ -18,7 +18,7 @@ function App() {
         </Header>
         <Drawer title="Title">
             <Navigation>
-            <Link to="/aboutme">About Me</Link>
+                <Link to="/aboutme">About Me</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contactpage">Contact Page</Link>
