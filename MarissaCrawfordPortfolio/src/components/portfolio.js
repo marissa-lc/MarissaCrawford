@@ -21,7 +21,7 @@ class Portfolio extends Component {
             className="card-image">
             <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
               <div>
-                <h5 className="pink-text">
+                <h5 className="black-text">
                 <MDBIcon icon="desktop" /> HTML//CSS
                 </h5>
                 <MDBCardTitle tag="h3" className="pt-2">
@@ -32,7 +32,7 @@ class Portfolio extends Component {
                   At this point we were 8 weeks in to the six month program and I was just starting to get a little more comfortable
                   with my code so I used this opportunity to try to showcase some of my personality along with my newfound skills.
                 </p>
-                <MDBBtn color="pink">
+                <MDBBtn color="black">
                   <MDBIcon icon="clone left"/><a href="https://marissa-lc.github.io/Updated_Portfolio-HW8-/"target="_blank" rel="noopener noreferrer" style={{color: "white"}}> View project</a>
                 </MDBBtn>
               </div>
@@ -42,9 +42,9 @@ class Portfolio extends Component {
         <MDBCol>
           <MDBCard
             className="card-image">
-            <div className="text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4">
+            <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
               <div>
-              <h5 className="pink-text">
+              <h5 className="black-text">
                   <MDBIcon icon="desktop" /> Full Stack
                 </h5>
                 <MDBCardTitle tag="h3" className="pt-2">
@@ -52,10 +52,11 @@ class Portfolio extends Component {
                 </MDBCardTitle>
                 <p>
                 peer-up was the second group project I participated in where we had to incorporate 
-                everything we had learned so far. The concept of our app was to create a space where students could mentor each other anonymously.
-                We ran out of time to get the app fully functional but the ReadMe elaborates on the concept and design.  
+                everything we had learned so far. The concept of our app was to create a space where students 
+                could match with and mentor each other anonymously. We ran out of time to get the app 
+                fully functional but the ReadMe elaborates on the concept and design.  
                 </p>
-                <MDBBtn color="pink">
+                <MDBBtn color="black">
                 <MDBIcon icon="clone left"/><a href="https://marissa-lc.github.io/Peer-One/"target="_blank" rel="noopener noreferrer" style={{color: "white"}}> View project</a>
                 </MDBBtn>
               </div>
@@ -70,14 +71,10 @@ class Portfolio extends Component {
       <MDBCol>
         <MDBCard
           className="card-image"
-          style={{
-            backgroundImage:
-              "/Users/marissacrawford/Desktop/MarissaCrawford/MarissaCrawfordPortfolio/src/components/images/NoteTaker.png"
-          }}
         >
           <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
             <div>
-              <h5 className="pink-text">
+            <h5 className="black-text">
               <MDBIcon icon="desktop" /> Express
               </h5>
               <MDBCardTitle tag="h3" className="pt-2">
@@ -90,7 +87,7 @@ class Portfolio extends Component {
                 This app was succesfully deployed to heroku.
 
               </p>
-              <MDBBtn color="pink">
+              <MDBBtn color="black">
                 <MDBIcon icon="clone left"/><a href=" https://note-takerapp-11.herokuapp.com/"target="_blank" rel="noopener noreferrer" style={{color: "white"}}> View project</a>
               </MDBBtn>
             </div>
@@ -100,14 +97,10 @@ class Portfolio extends Component {
       <MDBCol>
         <MDBCard
           className="card-image"
-          style={{
-            backgroundImage:
-              "url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg')"
-          }}
         >
-          <div className="text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4">
+            <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
             <div>
-            <h5 className="pink-text">
+            <h5 className="black-text">
                 <MDBIcon icon="desktop" /> Mongo//Mongoose//Express
               </h5>
               <MDBCardTitle tag="h3" className="pt-2">
@@ -119,7 +112,7 @@ class Portfolio extends Component {
                 with Mongoose Schema and handle routes using Express.
                 This app was also deployed to heroku.
               </p>
-              <MDBBtn color="pink">
+              <MDBBtn color="black">
               <MDBIcon icon="clone left"/><a href="https://maximumeffort.herokuapp.com/"target="_blank" rel="noopener noreferrer" style={{color: "white"}}> View project</a>
               </MDBBtn>
             </div>
@@ -134,14 +127,10 @@ class Portfolio extends Component {
         <MDBCol>
           <MDBCard
             className="card-image"
-            style={{
-              backgroundImage:
-                "url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg')"
-            }}
           >
             <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
               <div>
-                <h5 className="pink-text">
+              <h5 className="black-text">
                 <MDBIcon icon="desktop" /> Full Stack
                 </h5>
                 <MDBCardTitle tag="h3" className="pt-2">
@@ -152,7 +141,7 @@ class Portfolio extends Component {
                   had learned over the last 6 months. The concept of this app was to create an easier
                   way for parents to communicate with their babysitters. 
                 </p>
-                <MDBBtn color="pink">
+                <MDBBtn color="black">
                 <MDBIcon icon="clone left"/><a href="https://marissa-lc.github.io/sitter/"target="_blank" rel="noopener noreferrer" style={{color: "white"}}> View project</a>
                 </MDBBtn>
               </div>
@@ -162,14 +151,10 @@ class Portfolio extends Component {
         <MDBCol>
           <MDBCard
             className="card-image"
-            style={{
-              backgroundImage:
-                "url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg')"
-            }}
           >
-            <div className="text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4">
+            <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
               <div>
-              <h5 className="pink-text">
+              <h5 className="black-text">
                   <MDBIcon icon="desktop" /> HTML//CSS
                 </h5>
                 <MDBCardTitle tag="h3" className="pt-2">
@@ -181,7 +166,7 @@ class Portfolio extends Component {
                   and functional webpages. With this portfolio I wanted to test out what 
                   I could create from "scratch".
                 </p>
-                <MDBBtn color="pink">
+                <MDBBtn color="black">
                 <MDBIcon icon="clone left"/><a href=" https://marissa-lc.github.io/portfolio_page/"target="_blank" rel="noopener noreferrer" style={{color: "white"}}> View project</a>
                 </MDBBtn>
               </div>
@@ -189,9 +174,7 @@ class Portfolio extends Component {
           </MDBCard>
         </MDBCol>
       </MDBRow>
-
-      <br></br>
-
+<br></br>
     </React.Fragment>
 
     );
