@@ -3,7 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from "react-mdl";
 import Routes from './components/routes';
 import { Link } from 'react-router-dom';
-import Image from '/Users/marissacrawford/Desktop/MarissaCrawfordPortfolio/src/components/images/wallLights.jpg';
+import Image from '/Users/marissacrawford/Desktop/MarissaCrawford/MarissaCrawfordPortfolio/src/components/images/white_parallax_brick_full.jpg';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Drawer>
             <Navigation>
                 <Link to="/">Home</Link>
-                <Link to="/aboutme">About Me</Link>
+                <Link to="/aboutme">About</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contactpage">Contact Page</Link>

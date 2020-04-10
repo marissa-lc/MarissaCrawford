@@ -18,8 +18,6 @@ width: 100%;
   width: 75%;
   margin: auto;
   text-align: center;
-  /* border-radius: 25%; */
-
 }
 
 .bio h1 {
@@ -34,12 +32,6 @@ width: 100%;
   font-size: 20px
 }
 
-/* PORTFOLIO PAGE */
-
-.portfolio {
-  display: flex;
-}
-
 /* ABOUT ME PAGE */
 
 .aboutme-bio {
@@ -49,22 +41,26 @@ width: 100%;
 }
 
 .aboutme-bio h1 {
-  font-family: 'Dancing Script';
   font-size: 66px;
-  font-weight: bold;
   color:black;
 }
 
 .aboutme-bio p {
-  font-family: 'Montserrat';
   color: black;
-  font-size: 30px
+  font-size: 18px
 }
 
 .aboutme-img {
   height: 250px;
   border-radius: 50%;
 }
+
+/* PORTFOLIO PAGE */
+
+.card-image {
+  background-image: "/Users/marissacrawford/Desktop/MarissaCrawford/MarissaCrawfordPortfolio/src/components/images/old-white-brick-wall-texture-design-empty-white-brick-background-presentations-web-design-lot-space-text-composition-art-image-website-magazine-graphic-design_1962-81.jpg"!important;
+}
+
 
 /* CONTACT PAGE */
 
@@ -77,9 +73,7 @@ width: 100%;
 }
 
 .resume h1 {
-  font-family: 'Dancing Script';
   font-size: 66px;
-  font-weight: bold;
   color: black;
 
 }

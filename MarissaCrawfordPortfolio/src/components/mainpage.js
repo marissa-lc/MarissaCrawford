@@ -8,6 +8,7 @@ class MainPage   extends Component {
                 <Grid className="main-grid">
                     <Cell col={12}>
                     <div className="bio">
+                        <h2>Marissa Crawford</h2>
                         <h1>
                             Full Stack Web Developer
                         </h1>
