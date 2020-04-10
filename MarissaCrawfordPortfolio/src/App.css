@@ -1,5 +1,5 @@
 body {
-background-image: url("https://i2.pickpik.com/photos/218/836/980/black-white-minimal-minimalist-minimalistic-preview.jpg");
+background-image: "/Users/marissacrawford/Desktop/MarissaCrawfordPortfolio/src/components/images/mainpage.png";
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -8,30 +8,29 @@ width: 100%;
 }
 
 /* MAINPAGE */
-
-.profile-img {
-  height: 250px;
-  border-radius: 50%;
+.mainBackground {
+  background-size: cover;
+  height: 80%;
+  width: 100%;
 }
 
 .bio {
   width: 75%;
   margin: auto;
   text-align: center;
+  /* border-radius: 25%; */
 
 }
 
 .bio h1 {
-  font-family: 'Dancing Script';
   font-size: 66px;
   font-weight: bold;
-  color: rgb(238, 153, 167);
+  color: black;
 
 }
 
 .bio p {
-  font-family: 'Montserrat';
-  color: rgb(238, 153, 167);
+  color: black;
   font-size: 20px
 }
 
@@ -53,12 +52,12 @@ width: 100%;
   font-family: 'Dancing Script';
   font-size: 66px;
   font-weight: bold;
-  color:rgb(238, 153, 167);
+  color:black;
 }
 
 .aboutme-bio p {
   font-family: 'Montserrat';
-  color: rgb(238, 153, 167);
+  color: black;
   font-size: 30px
 }
 
@@ -81,6 +80,6 @@ width: 100%;
   font-family: 'Dancing Script';
   font-size: 66px;
   font-weight: bold;
-  color:rgb(238, 153, 167);
+  color: black;
 
 }

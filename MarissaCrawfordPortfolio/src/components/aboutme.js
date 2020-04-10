@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import img from '/Users/marissacrawford/Desktop/Current Assignments/MarissaCrawford/MarissaCrawfordPortfolio/src/IMG_2010.png';
 
 class AboutMe extends Component {
     render() {
@@ -9,9 +8,6 @@ class AboutMe extends Component {
                 <Grid className="main-grid">
                     <Cell col={12}>
                     <div className="aboutme-bio">
-                    <img src ={img}
-                        alt="aboutme-img"
-                        className="aboutme-img"/>
                         <h1>
                         Marissa Crawford...
                         </h1>
