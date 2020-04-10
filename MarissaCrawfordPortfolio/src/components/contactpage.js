@@ -38,7 +38,7 @@ class Contact extends Component {
 
                    <ListItem>
                      <ListItemContent>
-                       971-400-XXXX
+                       971-400-9323
                      </ListItemContent>
                    </ListItem>
   

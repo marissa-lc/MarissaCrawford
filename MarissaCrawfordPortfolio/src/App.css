@@ -41,7 +41,7 @@ width: 100%;
 }
 
 .aboutme-bio h1 {
-  font-size: 66px;
+  font-size: 45px;
   color:black;
 }
 
@@ -53,12 +53,6 @@ width: 100%;
 .aboutme-img {
   height: 250px;
   border-radius: 50%;
-}
-
-/* PORTFOLIO PAGE */
-
-.card-image {
-  background-image: "/Users/marissacrawford/Desktop/MarissaCrawford/MarissaCrawfordPortfolio/src/components/images/old-white-brick-wall-texture-design-empty-white-brick-background-presentations-web-design-lot-space-text-composition-art-image-website-magazine-graphic-design_1962-81.jpg"!important;
 }
 
 

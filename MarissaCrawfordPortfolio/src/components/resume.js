@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import img from '/Users/marissacrawford/Desktop/Current Assignments/MarissaCrawford/MarissaCrawfordPortfolio/src/Resume.png'
 
 class Resume extends Component {
     render() {
