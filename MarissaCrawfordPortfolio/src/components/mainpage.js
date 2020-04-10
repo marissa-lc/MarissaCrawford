@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import {MDBIcon} from "mdbreact";
+
 
 class MainPage   extends Component {
     render() {
@@ -13,13 +15,19 @@ class MainPage   extends Component {
                             Full Stack Web Developer
                         </h1>
                         <p>
-                            HTML // CSS //JAVASCRIPT // MYSQL //REACT
-                        </p>
-                    <div className="links">
-                        <a href="https://github.com/" rel="noopener noreferrer" target="_blank">
-                            {/* <i className="fa fa-linkedin-square" */}
+                            HTML || CSS || JAVASCRIPT || MYSQL
+                            <br></br>
+                            <a href="https://github.com/" rel="noopener noreferrer" target="_blank"
+                            style={{padding: '2%', color: 'black'}}>
+                    <MDBIcon fab icon="github" />
                         </a>
-                    </div>
+                             || REACT ||
+                        <a href="https://www.linkedin.com/in/marissa-crawford-060878194/" rel="noopener noreferrer" target="_blank"
+                        style={{padding: '2%', color: 'black'}}>
+                    <MDBIcon fab icon="linkedin" />
+                    </a>
+                    </p>
+
                     </div>
                     </Cell>
                 </Grid>
