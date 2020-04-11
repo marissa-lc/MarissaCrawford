@@ -3,7 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from "react-mdl";
 import Routes from './components/routes';
 import { Link } from 'react-router-dom';
-import Image from '/Users/marissacrawford/Desktop/MarissaCrawford/MarissaCrawfordPortfolio/src/components/images/white_parallax_brick_full.jpg';
+import Image from '/Users/marissacrawford/Desktop/MarissaCrawford/src/components/images/white_parallax_brick_full.jpg';
 
 function App() {
   return (
